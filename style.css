@@ -1,0 +1,56 @@
+body
+{
+    background-color: white;
+}
+form{
+    position: relative;
+    left: 50%;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: yellow;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 20px gray;
+}
+
+input,
+textarea
+{
+    font-size: 22px;
+    width: 70%;
+    margin: 0.4rem;
+    height: 20%;
+
+}
+#sendBtn
+{
+    border-radius: 0.2rem ;
+    border: blueviolet;
+}
+
+#sendBtn:hover
+{
+    background: #888;
+    box-shadow: 1px 1px 10px #888;
+}
+ul{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: yellow;
+    width: 16rem;
+    color: black;
+    font-size: 25px;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 10px gray;
+}
